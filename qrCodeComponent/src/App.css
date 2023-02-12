@@ -1,0 +1,35 @@
+
+:root{
+display: flex;
+justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 400px;
+  height: 650px;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.qrContainer img {
+  border-radius: 25px;
+  max-width: 100%;
+}
+
+
+.title {
+  color: black;
+  font-size: 30px;
+  
+}
+
+.description {
+  color: #b0b5ba;
+  font-size: 20px;
+  margin: 20px;
+}
+
